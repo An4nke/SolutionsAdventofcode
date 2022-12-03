@@ -5,7 +5,7 @@ CREATE TABLE test (
 );
 
 COPY test(Calorien, elfe)
-FROM '/tmp/test.csv'
+FROM 'test.csv'
 DELIMITER ','
 CSV HEADER;
 
