@@ -16,8 +16,7 @@ GROUP BY elfe
 ORDER BY SUM(calorien) DESC;
 
 SELECT SUM(cal) FROM (
-	SELECT SUM(calorien) cal,
-		   elfe
+	SELECT SUM(calorien) cal
 	FROM test
 	GROUP BY elfe
 	ORDER BY SUM(calorien) DESC
