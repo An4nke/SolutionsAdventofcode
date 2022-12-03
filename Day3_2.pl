@@ -3,8 +3,8 @@
 use warnings;
 use strict;
 
-#open(FH, '<', '/media/win_omega/Projekte/adventofcode/babyRucksack.csv');
-open(FH, '<', '/media/win_omega/Projekte/adventofcode/Rucksack.csv');
+#open(FH, '<', 'babyRucksack.csv');
+open(FH, '<', 'Rucksack.csv');
 
 my %prio = (
 	'a' => 1,
