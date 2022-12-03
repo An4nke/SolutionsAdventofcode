@@ -3,8 +3,8 @@
 use warnings;
 use strict;
 
-open(FH, '<', '/media/win_omega/Projekte/adventofcode/papersiccors.csv') or die $!;
-#open(FH, '<', '/media/win_omega/Projekte/adventofcode/baby.csv') or die $!;
+open(FH, '<', 'papersiccors.csv') or die $!;
+#open(FH, '<', 'baby.csv') or die $!;
 
 
 
