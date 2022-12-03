@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-open(FH, '<', '/media/win_omega/Projekte/adventofcode/test1.csv') or die $!;
+open(FH, '<', 'test1.csv') or die $!;
 
 my $counter = 1;
 
