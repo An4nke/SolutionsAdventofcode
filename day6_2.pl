@@ -86,3 +86,4 @@ sub find {
 	}
 }
 
+close $FH;
