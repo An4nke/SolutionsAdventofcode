@@ -20,10 +20,9 @@ my $minimum = 0;
 
 
 # get input
-# read from input from parameter
 open(my $FH, '<', $ARGV[0]);
 
-# read input from STDIN
+# read input
 # 1. Processing: find connection and size of files
 while (<$FH>) {
 	# now let us get the user input
