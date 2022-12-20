@@ -88,3 +88,4 @@ foreach my $dir (sort keys %dirCont) {
 
 print "[RESULT]\tSize to delete: $minimum\n";
 
+close $FH;
