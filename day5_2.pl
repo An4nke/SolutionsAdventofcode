@@ -108,3 +108,5 @@ foreach (@stacks) {
 	#print "\n";
 }
 print "\n";
+
+close $FH;
